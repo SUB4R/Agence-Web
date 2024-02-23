@@ -1,0 +1,44 @@
+1. Créez un dossier "Agence Web".
+
+Commande utilisé: mkdir agence_web
+
+2. Créez un index.html avec du contenu.
+
+Commande utilisé: touch index.html
+
+3. Initialisez le dépôt local et faites un commit.
+
+Commandes utilisés: git init 
+                    git add .
+                    git commit -m "message du commit"
+
+
+4. Créez un dépot distant sur Github.
+
+5. Liez le dépôt distant et le dépôt local.
+
+Commandes utilisés: git remote add origin git@github.com:HugoLuti/agence_web.git
+
+6. Envoyez le code de votre dépôt local sur votre dépôt distant.
+
+Commandes utilisés: git push -u main
+
+7. Créez une branche "Services".
+
+Commandes utilisés: git branch services
+
+8. Switchez sur la branche et ajoutez-y une page services.html avec du contenu.
+
+Commandes utilisés: git switch services
+
+9. Faites un commit de ces changements.
+
+Commandes utilisés: git commit -m "Ajout de service.html"
+
+10. Envoyez cette branche sur Github.
+
+Commandes utilisés: git push -u origin services
+
+11. Intégrez les changements de cette branche à la branche principale à l'aide d'une "pull request".
+
+git pull 
